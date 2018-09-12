@@ -1,0 +1,16 @@
+h1 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline;
+}
+h2,h3,
+h4,h5,h6 {
+    text-decoration: underline;
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+}
