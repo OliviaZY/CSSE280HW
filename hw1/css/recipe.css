@@ -19,6 +19,9 @@ h1 {
     font-size: 22px;
     text-align: center;
 }
+ul {
+    list-style-image: url('https://www.rose-hulman.edu/class/csse/csse280/current/Homework/recipe/images/pie_bullet.png');
+}
 .tooltip {
     position: relative;
     display: inline-block;
