@@ -25,7 +25,20 @@ h1 {
     border-radius: 0.5em;
     width: 90%;  
     margin-left: 30px;
+    font-style: italic;
 }
 p .margin {
     line-height: 90%;
+}
+.link a{
+    color: #A4A400;
+}
+.copyright-block {
+    text-align: left;
+}
+
+.copyright {
+    font-family: monospace;
+    text-align: right;
+    display: inline-block;
 }
