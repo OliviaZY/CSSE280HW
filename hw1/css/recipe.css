@@ -1,16 +1,31 @@
-h1 {
+p{
+    color: #404040;
+    font-size: 15px;
+    font-family: Georgia, Garamond
+}
+h1, h2,h3,
+h4,h5,h6 {
     color: #A4A400;
     background-color: #F0F0F0;
+    text-decoration: underline;
     font-family: Lucida Sans Unicode, Helvetica, Arial;
-    font-weight: bold;
-    font-size: 22px;
-    text-align: center;
-    text-decoration: underline;
-}
-h2,h3,
-h4,h5,h6 {
-    text-decoration: underline;
     text-align: left;
     font-weight: normal;
     font-size: 18px;
+    text-decoration: underline;
+}
+h1 {      
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+.quote {
+    padding-left: 1.5em;
+    background:lightyellow;
+    border-radius: 0.5em;
+    width: 90%;  
+    margin-left: 30px;
+}
+p .margin {
+    line-height: 90%;
 }
