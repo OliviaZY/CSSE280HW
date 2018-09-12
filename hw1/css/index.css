@@ -10,6 +10,22 @@ h1 {
     color: rgb(27, 50, 182);
     opacity: 1;
 }
+.main {
+  padding-left: 1.5em;
+  background: #fff;
+  border-radius: 0.5em;
+  width: 60%;
+  padding-bottom: 8em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.sidebar {
+  padding: 1.5em;
+  background: #fff;
+  border-radius: 0.5em;
+  margin-left: 1.5em;
+  width: 30%;
+}
 .navbar {
     overflow: hidden;
     background-color: rgb(66, 23, 23);
@@ -83,13 +99,4 @@ h1 {
   }
   .container {
     display: flex;
-}
-.main {
-    padding-left: 1.5em;
-    background: #fff;
-    border-radius: 0.5em;
-    width: 90%;
-    padding-bottom: 8em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
 }
