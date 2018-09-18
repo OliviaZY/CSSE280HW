@@ -1,3 +1,17 @@
 body {
-
+    margin-left: 150px;
+}
+.banner-img {
+    margin-left: 0px;
+    border-left: 0px;
+    padding-left: 0px;
+}
+h1 {
+    text-align: center;
+}
+.whole-page {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    width: 1000px;
 }

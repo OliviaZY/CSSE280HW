@@ -5,6 +5,7 @@
         "commonjs": true,
         "es6": true,
         "jquery": true,
+        "jasmine":true,
         "mongo": true
     },
     "extends": "eslint:recommended",
