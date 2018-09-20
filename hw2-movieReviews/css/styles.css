@@ -1,17 +1,41 @@
 body {
-    margin-left: 150px;
+    background-image: url(../images/background.png);
+    font-size: 8px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.banner-img {
-    margin-left: 0px;
-    border-left: 0px;
-    padding-left: 0px;
+
+.banner-img  {
+    background-image: url(../images/bannerbg.png);
 }
 h1 {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px 3px #999999;
     text-align: center;
 }
+
 .whole-page {
-    border-style: solid;
-    border-color: gray;
-    border-radius: 10px;
-    width: 1000px;
+    width: 800px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 4px solid gray;
+    overflow: hidden;
+}
+.critic {
+    display: inline-block;
+    background-image: url(../images/rbg.png);
+    width: 550px;
+    font-weight: bold;
+    font-size: 48px;
+    color: red;
+    height: 83px;
+    line-height: 83px;
+}
+.critic img {
+    float: left;
 }
