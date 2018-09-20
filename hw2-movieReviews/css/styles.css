@@ -39,3 +39,18 @@ h1 {
 .critic img {
     float: left;
 }
+.movie-overview {
+    width: 250px;
+    float: right;
+    background-color: #a2b964;
+    font-family: Arial, sans-serif;
+    margin-bottom: 1%;
+}
+.movie-overview dl {
+    margin: 10px;
+}
+.movie-overview dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
