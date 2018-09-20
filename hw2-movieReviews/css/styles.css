@@ -81,18 +81,18 @@ h1 {
     margin: 8px;
     /* float: left; */
 }
-.review p img {
+.review img {
     margin-right: 5px;
     float: left;
 }
 
 .validate {
-    position: fixed;
-    right: 0;
-    bottom: 0;
+    float:right;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
-.validate a img {
+.validate img {
     opacity: 0.5;
 }
 .footer {
