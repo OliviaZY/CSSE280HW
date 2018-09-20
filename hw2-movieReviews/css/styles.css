@@ -53,4 +53,8 @@ h1 {
     font-weight: bold;
     margin-top: 10px;
 }
+.movie-overview dd ul {
+    list-style-type: none;
+    padding-left: 0;
+}
 
