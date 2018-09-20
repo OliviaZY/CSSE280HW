@@ -57,3 +57,32 @@ h1 {
     list-style-type: none;
     padding-left: 0;
 }
+
+
+.movie-comments {
+    display: table;
+}
+
+.comment {
+    width: 47%;
+    margin: 1% 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.review {
+    font-weight: bold;
+    font-size: 8px;
+    background-color: #e8dc9b;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.review p{
+    display: inline-block;
+    margin: 8px;
+    /* float: left; */
+}
+.review p img {
+    margin-right: 5px;
+    float: left;
+}
