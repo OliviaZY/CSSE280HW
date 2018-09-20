@@ -44,7 +44,6 @@ h1 {
     float: right;
     background-color: #a2b964;
     font-family: Arial, sans-serif;
-    margin-bottom: 1%;
 }
 .movie-overview dl {
     margin: 10px;
@@ -85,4 +84,20 @@ h1 {
 .review p img {
     margin-right: 5px;
     float: left;
+}
+
+.validate {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.validate a img {
+    opacity: 0.5;
+}
+.footer {
+    background-color: #a2b964;
+    padding: 5px;
+    margin-bottom: 0;
+    text-align: center;
 }
