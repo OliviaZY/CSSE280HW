@@ -50,7 +50,10 @@ li:hover{
     margin-top: 0.5em;
 }
 .navigation a:hover{
-    color:#aaaa77;
+    color:white;
+}
+.navigation a:visited {
+    color:#7b7d5a;
 }
 .container {
     display: flex;
@@ -61,12 +64,18 @@ li:hover{
     border-radius: 0.5em;
     width: 70%; 
 }
-.main ul {
+li {
     padding-top: 10px;
 }
 h4 {
     display: inline;
+    text-transform: uppercase;
 }
 #credits {
     border-top: dotted purple;
+}
+img {
+    float:right;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
