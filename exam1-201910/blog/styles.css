@@ -4,4 +4,41 @@
 */
 body {
     color: purple;
+    background-color: #ddddbb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:800px;   
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    padding:0.5em;
+    border-right: 1em solid black;
+    background-color: #aaaa77;
+    color: white;
+}
+.navigation {
+    width: 30%;
+}
+.navigation li {
+    border-right: 1em solid black;
+    background-color: white;
+    color: black;
+    width:9em;
+    margin-bottom: 1.5em;
+    padding: 0;
+}
+.navigation ul{
+    float:left;
+    list-style-type: none;
+    padding-left: 0;
+}
+.container {
+    display: flex;
+}
+.main {
+    padding-left: 1.5em;
+    background: #fff;
+    border-radius: 0.5em;
+    width: 70%;
+   
 }
