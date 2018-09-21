@@ -76,6 +76,8 @@ h4 {
 }
 img {
     float:right;
+    width:250px;
+    height:250px;
     margin-left: 5px;
     margin-bottom: 5px;
 }
