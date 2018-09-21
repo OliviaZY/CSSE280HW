@@ -85,7 +85,15 @@ h1 {
     margin-right: 5px;
     float: left;
 }
+.reviewer {
+    margin-top: 20px;
+    display: flex;
+}
 
+.reviwer img {
+    float: left;
+    margin-right: 5px;
+}
 .validate {
     float:right;
     margin-right: 0;
