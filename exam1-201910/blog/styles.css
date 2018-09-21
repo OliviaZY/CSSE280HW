@@ -15,9 +15,14 @@ h1{
     border-right: 1em solid black;
     background-color: #aaaa77;
     color: white;
+    text-shadow: 2px 3px 0px gray;
+}
+p:hover{
+    background-color: #aaaa77;
 }
 .navigation {
     width: 30%;
+    padding-right: 1.5em;
 }
 .navigation li {
     border-right: 1em solid black;
@@ -27,10 +32,25 @@ h1{
     margin-bottom: 1.5em;
     padding: 0;
 }
+li:hover{
+    background-color: #c7c78f;
+}
 .navigation ul{
     float:left;
     list-style-type: none;
     padding-left: 0;
+}
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding-right: 1.3em;
+    padding-left: 1.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-top: 0.5em;
+}
+.navigation a:hover{
+    color:#aaaa77;
 }
 .container {
     display: flex;
@@ -39,6 +59,14 @@ h1{
     padding-left: 1.5em;
     background: #fff;
     border-radius: 0.5em;
-    width: 70%;
-   
+    width: 70%; 
+}
+.main ul {
+    padding-top: 10px;
+}
+h4 {
+    display: inline;
+}
+#credits {
+    border-top: dotted purple;
 }
