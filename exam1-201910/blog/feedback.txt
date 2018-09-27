@@ -1,0 +1,8 @@
+-1 navigation should be 9em wide
+-1 navigation should have no padding
+-1 main should have a left margin, not a left padding
+-1 missing id for flow and link for sources
+-1 text color of link should be #aaaa77
+-1 the line above the credits block should be thin
+
+44/50
