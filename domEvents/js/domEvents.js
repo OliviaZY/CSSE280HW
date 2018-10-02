@@ -2,9 +2,14 @@ const instructions = ["Say Hello", "Click Me"];
 
 const overMeEl = document.getElementById("overme");
 
+const clickMeEl = document.getElementById("clickMe");
+
+clickMeEl.onclick = sayHello;
+let count = 0;
+
 function sayHello() {
-    const helloEl = document.getElementById("demo");
-    // complete this function.
+    count = 1- count;
+    clickMeEl.textContent = instructions[count];
 }
 
 function dispalyDate() {
