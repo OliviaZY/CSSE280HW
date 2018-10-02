@@ -10,6 +10,8 @@ let count = 0;
 function sayHello() {
     count = 1- count;
     clickMeEl.textContent = instructions[count];
+    const helloEl = document.getElementById("demo");
+    helloEl.textContent = count ? "Hello World" : "";
 }
 
 function dispalyDate() {
