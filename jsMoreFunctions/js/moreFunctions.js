@@ -12,3 +12,13 @@ function Person(first, last) {
 }
 
 console.log(new Person('Delvin', 'Thomas').greet()); //Delvin says hi.
+
+function convertFromMiles (to) {
+    const feetInMile = 5280;
+    const knInMile = 1.6;
+    return function (miles) {
+
+    }
+}
+const milesToKm = convertFromMiles('km');
+console.log(milesToKm(100));
