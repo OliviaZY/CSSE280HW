@@ -9,7 +9,36 @@
 </head>
 
 <body>
+    <form class="well form-search" id="search-by-title-form">
+        <fieldset>
+            <legend>By Title</legend>
 
+            <div>
+                <label for="t" class="control-label">Title:</label>
+                <input type="text" id="t" name="t" class="input-small">
+                <br>
+                
+                <label for="y" class="control-label">Year:</label>
+                <input type="text" id="y" name="y" class="input-small">
+                <br>
+
+                <label for="plot" class="control-label">Plot:</label>
+                <select name="plot" id="plot">
+                    <option value="short" selected="selected">Short</option>
+                    <option value="full">Full</option>
+                </select>
+                <br>
+                
+                <label for="plot" class="control-label">Response:</label>
+                <select name="r" id="r">
+                    <option value="json" selected="selected">JSON</option>
+                    <option value="xml">XML</option>
+                </select>
+                <br>
+
+            </div>
+        </fieldset>
+    </form>
 
 
     <div id="search-by-title-response">
