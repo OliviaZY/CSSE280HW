@@ -1,0 +1,38 @@
+p {
+    margin: 10px;
+    display: table;
+}
+
+span:first-child {
+    font-weight: bold;
+    width: 100px;
+    display: table-cell;
+}
+
+span:nth-child(2) {
+    font-style: italic;
+    color: green;
+    display: table-cell;
+}
+
+.display-ratings {
+    display: inline-block;
+}
+
+p.display-ratings-first {
+    display: inline;
+    margin-right: 0;
+}
+
+p.display-ratings-first + p {
+    margin-left: 0;
+}
+
+.display-ratings > .inline-span {
+    display: inline;
+    font-weight: normal;
+}
+
+img {
+    vertical-align: middle;
+}
