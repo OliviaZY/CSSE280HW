@@ -6,11 +6,11 @@
     let responseDiv;
     let plot, year, title, responseType;
 
-    function getFormData(){
+    function getFormData() {
         plot = $("[name='plot' option:selected").text();
-        responseType=$("[name='r'] option:selected").text();
-        title=$('#t').val();
-        year=$('#y').val();
+        responseType = $("[name='r'] option:selected").text();
+        title = $('#t').val();
+        year = $('#y').val();
         console.log(plot);
         console.log(responseType);
         console.log(title);
@@ -25,10 +25,22 @@
             y: year,
             plot: plot
         };
-         $.ajax(apiUrl, {
-             type: 'GET',
-             data: inputData,
-         });
+        $.ajax(apiUrl, {
+            type: 'GET',
+            data: inputData,
+            success: displayMovie,
+            error: (request, status, error) => {
+                responseDiv.html("Issue finding requested movie");
+            } 
+        });
+    }
+
+    function displayMovie(data) {
+        console.log(data);
+    }
+
+    function displayError(result) {
+        console.log(result);
     }
 
     $(document).ready(function () {
