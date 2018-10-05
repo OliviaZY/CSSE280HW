@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>n-Squared Puzzle</title>
+	<meta name="description" content="Play N-Squared puzzle online">
+	<link href="css/puzzle.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<h2>Use jQuery to solve N-Squared puzzle</h2>
+	<div id="form">
+		Choose a row size:
+		<input type="radio" name="size" value="3" />3
+		<input type="radio" name="size" value="4" checked />4
+		<input type="radio" name="size" value="5" />5
+		<input type="radio" name="size" value="6" />6
+		<button id="sizeChoice">Choose</button>
+	</div>
+
+	<div id="board">
+	</div>
+
+	<div id="victory">
+		Congratulations! You have won!!
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script>
+		window.jQuery || document.write('<script src="js/jquery-3.1.1.js"><\/script>');
+	</script>
+
+	<script src="js/puzzle-jQ.js">
+	</script>
+</body>
+
+</html>
