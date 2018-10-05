@@ -7,7 +7,7 @@
     let plot, year, title, responseType;
 
     function getFormData() {
-        plot = $("[name='plot' option:selected").text();
+        plot = $("[name='plot'] option:selected").text();
         responseType = $("[name='r'] option:selected").text();
         title = $('#t').val();
         year = $('#y').val();
@@ -36,6 +36,10 @@
     }
 
     function displayMovie(data) {
+        if(data.Error) {
+            displayError(data);
+            return;
+        }
         console.log(data);
     }
 
