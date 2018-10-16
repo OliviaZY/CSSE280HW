@@ -1,0 +1,52 @@
+Your name(s):
+Whose submission should be graded?
+
+Instructions:
+https://docs.google.com/document/d/1dbbkf-Oktv2CPDEGY532Wk3h8TVqY4ojufEFZJmwIyE/edit?usp=sharing
+
+Solutions:
+
+1. Find one restaurant in the Staten Island borough.
+
+Query:
+
+
+2. Find the count of all the restaurants in the Bronx borough.
+
+Query:
+
+
+
+3. Find the count of all the restaurants in zip code 11224 that serve American cuisine.
+
+Query:
+
+
+
+4. Find the count of all restaurants in the Manhattan borough with at least one grade with a score of 12. 
+
+Query:
+
+
+
+5. Find the count of all restaurants in the Manhattan borough with all grades having a score of 12. 
+
+Query:
+
+
+
+6. Update the restaurant with restaurant_id = 40364920 by setting the cuisine to Italian.
+
+Query:
+
+
+
+7. For the restaurant with restaurant_id = 40364920, use the positional operator (https://docs.mongodb.com/v3.2/reference/operator/update/positional/) to change the grade with score == 2 such that the value of the score becomes 15.
+
+Query:
+
+
+
+8. Remove the document with restaurant with restaurant_id = 40364920 from the restaurants collection.
+
+Query:
