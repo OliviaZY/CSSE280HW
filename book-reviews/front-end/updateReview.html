@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Book Reviews</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1> Update this book review</h1>
+		<ol class="nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="book.html">Display reviews</a>
+			</li>
+		</ol>
+
+		<h3 id="title"> </h3>
+		<p id="author"></p>
+
+		<div class="cover-image" id="cover-image"></div>
+
+		<div class="reviews" id="book-form">
+			<form name="new-review">
+				<label for="author">Your Email</label>
+				<input type="email" name="author">
+				<div class="clear"></div>
+
+				<label for="stars">Stars</label>
+				<select name="stars">
+					<option value="5">5</option>
+					<option value="4">4</option>
+					<option value="3">3</option>
+					<option value="2">2</option>
+					<option value="1">1</option>
+				</select>
+				<div class="clear"></div>
+
+				<label for="book-review">Your Review</label>
+				<textarea name="book-review"></textarea>
+				<div class="clear"></div>
+
+				<button id="submit-button" type="submit"> Update </button>
+				<button id="delete-button" type="submit"> Delete </button>
+				<div class="clear"></div>
+			</form>
+		</div>
+
+	</div>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/book.js"></script>
+</body>
+</html>
